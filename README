@@ -1,0 +1,6 @@
+// $Id$
+
+This Drupal module is a companion module for the Job module.  Read more about the Job module here:
+  https://github.com/nmcclain/job
+
+This main feature of this module, for now, is to provide a new Views field that shows the last time a Webform was submitted.  This is useful in building a views-based dashboard for tracking Job status, much like Jenkens' UI.  The field is wrapped in a classed div for styling.
