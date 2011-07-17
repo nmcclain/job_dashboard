@@ -1,0 +1,13 @@
+; $Id$
+name = Job Dashboard
+description = Job Dashboard for Managing Deployments
+package = Job
+core = 7.x
+project = "job"
+
+dependencies[] = "webform"
+dependencies[] = "views"
+
+
+files[] = views/job_dashboard.views.inc
+files[] = views/job_dashboard_handler_field_webform_lastsubmission.inc

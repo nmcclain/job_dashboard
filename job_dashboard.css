@@ -1,0 +1,29 @@
+td.dashrow {
+  padding: 20px;
+  background: #ddd;
+}
+
+div.view-dashboard .views-field-title {
+  font-size: 2em;
+}
+
+.views-field-field-job-deploy {
+  background: #fff;
+}
+
+div.views-field-job-dashboard-webform-lastsubmission span.field-content .job-success {
+  display: inline;
+  background: #9f9; 
+}
+
+div.views-field-job-dashboard-webform-lastsubmission span.field-content .job-fail {
+  display: inline;
+  background: #f99; 
+}
+
+div.views-field-job-dashboard-webform-lastsubmission span.field-content .job-never {
+  display: inline;
+  background: #eef; 
+}
+
+

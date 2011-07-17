@@ -1,0 +1,15 @@
+<?php
+// $Id$
+
+
+/**
+ * Implements hook_views_api().
+ */
+function job_dashboard_views_api() {
+  return array(
+    'api' => 2.0,
+    'path' => drupal_get_path('module', 'job_dashboard') . '/views',
+  );
+}
+
+
